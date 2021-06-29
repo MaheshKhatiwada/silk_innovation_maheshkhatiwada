@@ -1,11 +1,10 @@
 import React from 'react'
 
-function Dashboard() {
+export function Dashboard() {
     return (
         <div className="dashboard">
-
+            this is dashbard
         </div>
     )
 }
 
-export default Dashboard

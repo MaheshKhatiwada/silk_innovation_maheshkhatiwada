@@ -13,6 +13,10 @@
 .form{
     text-align: center;
 }
+.formInput{
+    display: flex;
+    justify-content: space-between;
+}
 input{
     border-radius: 5px;
     height: 3rem;
@@ -46,4 +50,8 @@ button{
 }
 button:hover{
     box-shadow: inset -5px -5px 5px #fff, inset 5px 5px 5px #babecc;
+}
+
+.error{
+    color:red;
 }
