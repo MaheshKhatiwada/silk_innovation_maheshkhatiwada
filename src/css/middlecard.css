@@ -1,0 +1,27 @@
+.card{
+    display: flex;
+    flex-flow: row wrap;
+    height: 100vh;
+    width:100%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    box-shadow: -5px -5px 5px #aeaeae,5px 5px 5px #babecc;
+    border-radius: 2px;
+
+}
+.carditems{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    height:10rem;
+    width: 25%;
+    background-color:white;
+    color:grey;
+    box-shadow: -5px -5px 5px #aeaeae,5px 5px 5px #babecc;
+}
+.card_icon{
+    font-size:500%;
+    cursor: pointer;
+}

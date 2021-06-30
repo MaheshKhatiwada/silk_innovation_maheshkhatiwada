@@ -1,0 +1,32 @@
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100vh;
+    border-right: 1px solid grey;
+    background-color: #fff;
+    box-shadow: -5px -5px 5px #aeaeae,5px 5px 5px #babecc;
+
+}
+.sidebar_icon{
+    display: flex;
+    flex-direction: column;
+    color:grey
+}
+.icon{
+    transform: scale(2);
+    margin: 0 30%;
+}
+.icon:hover{
+    cursor: pointer;
+}
+.icon_title{
+    text-align: center;
+     padding-top: 0.8rem;
+     padding-right:1.5rem;
+}
+
+h4{
+    margin-top: 0.5rem;
+}

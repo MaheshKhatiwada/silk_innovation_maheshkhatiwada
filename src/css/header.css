@@ -1,0 +1,19 @@
+.title{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#fff;
+    box-shadow: -5px -5px 5px #aeaeae,5px 5px 5px #babecc;
+    border-radius: 0.5rem;
+    color:grey;
+
+}
+.avatar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.balance{
+    padding-right: 1rem;
+}

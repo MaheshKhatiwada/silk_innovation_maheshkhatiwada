@@ -1,0 +1,36 @@
+.endCard {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 98vh;
+  box-shadow: -5px -5px 5px #aeaeae, 5px 5px 5px #babecc;
+}
+.kyc_info {
+  height: 25rem;
+  max-width: 50%;
+  max-width: 20rem;
+  box-shadow: -5px -5px 5px #aeaeae, 5px 5px 5px #babecc;
+  font-size: 150%;
+  color: gray;
+}
+
+.utils {
+  display: flex;
+  flex-flow: row wrap;
+}
+.utils_card {
+  display: flex;
+  height: 15vh;
+  width: 10vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -5px -5px 5px #aeaeae, 5px 5px 5px #babecc;
+}
+.utils_icon {
+  font-size: 5rem;
+}
+.utils_button {
+  width: 10rem;
+}
