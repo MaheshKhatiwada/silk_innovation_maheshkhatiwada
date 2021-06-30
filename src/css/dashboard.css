@@ -1,39 +1,70 @@
 .dashboard{
     display: grid;
     height: 100vh;
-    grid-template-rows:5rem 1fr 3rem;
+    grid-template-rows:6rem 1fr 3rem;
 }
 
 .title{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: blue;
-    color:white;
+    background-color:#fff;
+    box-shadow: -5px -5px 5px #aeaeae,5px 5px 5px #babecc;
+    border-radius: 0.5rem;
+    margin-bottom: 0.3rem;
+    color:grey;
+
 }
 .footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: blue;
-    color:white;
+    background-color:#fff;
+    font-weight: 200;
+    color:grey;
+    box-shadow: -5px -5px 5px #aeaeae,5px 5px 5px #babecc;
 }
 .main{
     display: grid;
     height: 100%;
     grid-template-columns: 8rem 1fr 1fr;
+
 }
 .sidebar{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin-left: 1rem;
+    border-right: 1px solid grey;
+    background-color: #fff;
+    box-shadow: -5px -5px 5px #aeaeae,5px 5px 5px #babecc;
 
+}
+.sidebar_icon{
+    display: flex;
+    flex-direction: column;
+    color:grey
 }
 .icon{
     transform: scale(2);
+    margin: 0 30%;
+}
+.icon:hover{
+    cursor: pointer;
+}
+.icon_title{
+    text-align: center;
+     padding-top: 0.8rem;
+     padding-right:1.5rem;
 }
 
 h4{
     margin-top: 0.5rem;
+}
+.avatar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.balance{
+    padding-right: 1rem;
 }
