@@ -1,6 +1,6 @@
-import { Dashboard } from './components/Dashboard';
+import  Dashboard  from './components/Dashboard';
 import React from 'react'
-import { BrowserRouter,Switch,Route } from 'react-router-dom'
+import { BrowserRouter,Route } from 'react-router-dom'
 
 import Login from './components/Login'
 

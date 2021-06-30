@@ -1,0 +1,39 @@
+.dashboard{
+    display: grid;
+    height: 100vh;
+    grid-template-rows:5rem 1fr 3rem;
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blue;
+    color:white;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    color:white;
+}
+.main{
+    display: grid;
+    height: 100%;
+    grid-template-columns: 8rem 1fr 1fr;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 1rem;
+
+}
+.icon{
+    transform: scale(2);
+}
+
+h4{
+    margin-top: 0.5rem;
+}
