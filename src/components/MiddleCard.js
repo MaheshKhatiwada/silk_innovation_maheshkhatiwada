@@ -1,5 +1,4 @@
 import React from "react";
-import AccountBalanceIcon from "@material-ui/icons/AccountBalance";
 import { FiSend } from "react-icons/fi";
 import { GiWallet } from "react-icons/gi";
 import { RiBankFill } from "react-icons/ri";

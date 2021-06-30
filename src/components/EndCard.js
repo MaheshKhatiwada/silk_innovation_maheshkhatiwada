@@ -2,7 +2,6 @@ import React from "react";
 import "../css/endcard.css";
 import PhoneIphoneIcon from '@material-ui/icons/PhoneIphone';
 import TvIcon from '@material-ui/icons/Tv';
-import { RiTvFill } from "react-icons/ri";
 import FlightRoundedIcon from '@material-ui/icons/FlightRounded';
 
 function EndCard({ info }) {

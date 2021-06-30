@@ -5,8 +5,6 @@ import VisibilityOffIcon from "@material-ui/icons/VisibilityOff";
 ;
 
 function Login({handleSubmit,handleChange,handleShowPassword,user,errors}) {
-
-    //console.log(errors);
     return (
       <div className="login">
         <h3>Login Form</h3>
